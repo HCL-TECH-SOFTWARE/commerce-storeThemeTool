@@ -1,0 +1,44 @@
+/*
+ *-----------------------------------------------------------------
+	=================================================================
+	Copyright [2021] [HCL America, Inc.]
+	=================================================================
+ *-----------------------------------------------------------------
+ */
+ .example-card {
+    max-width: 300px;
+    margin: 10px;
+    border:1px solid #ccc;
+  }
+  .activecard{
+    border-top:3px solid #00477d;
+  }
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+
+  .hc-table-wrapper {
+    border-top: 3px solid #4d4d4d;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.colorcls{
+  width: 20px;
+height: 20px;
+border-radius: 20px;
+display: inline-block;
+margin: 3px 5px -4px 10px;
+}
+/*
+:host /deep/ .mat-card-header-text {
+  margin: 0;
+}*/
+mat-card-title{
+  color:#00477d;
+}
+
+.storetheme .mat-form-field-appearance-outline.mat-form-field-type-mat-input{
+  line-height: 15px;
+}
